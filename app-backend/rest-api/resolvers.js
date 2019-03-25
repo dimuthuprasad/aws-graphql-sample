@@ -4,7 +4,7 @@
 function configuration(args) {
   return  [ {
     key: "Color",
-    value: "#222"
+    value: "#f00"
   }];
 }
 

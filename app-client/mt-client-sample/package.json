@@ -1,0 +1,37 @@
+{
+  "name": "mt-client-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/graphql": "^14.0.7",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-http": "^1.5.14",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "vue": "^2.6.6",
+    "vue-apollo": "^3.0.0-beta.28",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-typescript": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "fibers": "^3.1.1",
+    "graphql-tag": "^2.9.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "typescript": "^3.2.1",
+    "vue-cli-plugin-apollo": "^0.19.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
