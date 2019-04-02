@@ -1,0 +1,7 @@
+  <div class="test">
+    <h1>Appointments</h1>
+
+    <button @click="fetchAppointments">Fetch Appointments</button>
+    <h2 v-if="isLoading">Loading...</h2>
+    <div v-for="(a, index) in appointments" :key="index" >{{a.name}}</div>
+  </div>
